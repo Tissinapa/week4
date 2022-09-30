@@ -9,8 +9,8 @@ img{
   display: block;
 }
 
-div.show-data{
-  width: 100%;
+.show-data{
+  
   font-family: 'Roboto', sans-serif;
   background-color: #cfd8dc;
   margin: 20px;
@@ -26,6 +26,7 @@ div.show-data{
 @media screen and (min-width: 801px ){
   .show-data{
     display: flex;
+    width: 100%;
   }
   .show-info{
     padding: 10px;
