@@ -9,7 +9,7 @@ img{
   display: block;
 }
 
-.show-data{
+div.show-data{
   width: 100%;
   font-family: 'Roboto', sans-serif;
   background-color: #cfd8dc;
