@@ -29,35 +29,41 @@ async function getShow(){
 }
 function getTvShowImage(tvData){
     tvData.forEach((tvShows)=>{
-        const tvDiv = document.createElement("div")
-        tvDiv.className = "show-data"
+        const tvDataDiv = document.createElement("div")
+        tvDataDiv.className = "show-data"
 
-        const tvDivInfo = document.createElement("div")
-        tvDivInfo.className= "show-info"
+        const tvInfoDiv = document.createElement("div")
+        tvInfoDiv.className= "show-info"
 
         const imageDiv = document.createElement("img")
         const showInfo = document.createElement("h1")
         const summary = document.createElement("p")
 
 
+        
+        
         imageDiv.src = tvShows.image?.medium
         showInfo.innerText = tvShows.name
         summary.innerText = tvShows.summary
 
         
-        tvDiv.appendChild(imageDiv)         //image linked to Show-data
-        tvBody.appendChild(tvDiv)           //show-data linked to body
-        tvDivInfo.appendChild(tvDiv)        //show-info linked to show-data
-        tvBody.appendChild(tvDivInfo)       //show-info linked to body
+        tvDataDiv.appendChild(imageDiv)
+        tvDataDiv.appendChild(tvInfoDiv)         
+        tvBody.appendChild(tvDataDiv)           
+        //tvDataDiv.appendChild(tvInfoDiv)
+                //show-info linked to show-data
+        //tvBody.appendChild(tvDataDiv)       
 
         
-        tvDivInfo.appendChild(showInfo)     //h1 linked to show-info
-        tvDivInfo.appendChild(summary)      //summary linked to show-info
-
-        tvBody.appendChild(tvDivInfo)       //h1 and summary linked to body
+        tvInfoDiv.appendChild(showInfo)     
+        tvInfoDiv.appendChild(summary)      
+        tvDataDiv.appendChild(tvInfoDiv)
+        tvBody.appendChild(tvDataDiv)       
         
+    //kohta mennään metssääää
     })
     
+
 }    
 
 
