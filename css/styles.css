@@ -11,6 +11,7 @@ img{
 
 .show-data{
   width: 100%;
+  
   background-color: #cfd8dc;
   margin: 20px;
   padding: 10px;
@@ -18,9 +19,9 @@ img{
   box-shadow: 2px 5px;
   
 }
- .show-info{
-  font-family: 'Roboto', sans-serif;
-} 
+/*  .show-info{
+  
+}  */
 
 @media screen and (min-width: 801px ){
   .show-data{
@@ -36,7 +37,7 @@ img{
     margin: auto;
   }
   p{
-    font-family: 'Roboto', sans-serif;
+    
     text-align: center;
     padding: 10px;
     }
