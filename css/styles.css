@@ -16,13 +16,12 @@ img{
   margin: 20px;
   padding: 10px;
   border-radius: 6px;
-  box-shadow: 5px 10px;
-  display: flex;
+  box-shadow: 2px 5px;
 }
 .show-info{
   width: 100%;
-  padding: 10px;
 }
+
 @media screen and (min-width: 801px ){
   .show-data{
     display: flex;
