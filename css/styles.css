@@ -18,9 +18,9 @@ img{
   border-radius: 6px;
   box-shadow: 2px 5px;
 }
-.show-info{
+/* .show-info{
   width: 100%;
-}
+} */
 
 @media screen and (min-width: 801px ){
   .show-data{
