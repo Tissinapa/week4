@@ -10,13 +10,14 @@ img{
 }
 
 .show-data{
-  width: 100%;
+  
   font-family: 'Roboto', sans-serif;
   background-color: #cfd8dc;
   margin: 20px;
   padding: 10px;
   border-radius: 6px;
   box-shadow: 2px 5px;
+  
 }
 /* .show-info{
   width: 100%;
