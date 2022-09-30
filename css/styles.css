@@ -10,7 +10,8 @@ img{
 }
 
 .show-data{
-  font-family: sans-serif;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
   background-color: #cfd8dc;
   margin: 20px;
   padding: 10px;
@@ -22,11 +23,20 @@ img{
   width: 100%;
   padding: 10px;
 }
-@media (min-width: 800px ){
+@media (min-width: 801px ){
   .show-data{
     display: flex;
   }
   .show-info{
     padding: 10px;
   }
+}
+@media (max-width: 800px ){
+  img{
+    margin: auto;
+  }
+  p{
+    text-align: center;
+    padding: 10px;
+    }
 }
